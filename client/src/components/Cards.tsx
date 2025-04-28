@@ -4,7 +4,7 @@ export const Cards = () => {
   return (
     <div className="w-64 min-h-80 m-4 bg-yellow-50 rounded-xl p-4">
       <div className="flex justify-between items-center">
-        <div>Project Ideas</div>
+        <div className="font-bold">Project Ideas</div>
         <div className="flex items-center gap-3 cursor-pointer">
           <ShareIcon />
           <DeleteIcon />
